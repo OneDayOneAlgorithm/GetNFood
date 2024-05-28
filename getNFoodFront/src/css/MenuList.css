@@ -1,0 +1,115 @@
+.store-name-menuList {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 8vh;
+    margin-top: 5vh;
+
+}
+
+
+.main-logo-noToggle {
+    margin-top: 1.8vh;
+}
+
+.menu-price {
+    text-decoration: line-through;
+    color: gray;
+    display: inline;
+}
+
+.menuList-menuname {
+    font-weight: bold;
+
+}
+
+.counter-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.counter-button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.counter-value {
+    font-size: 20px;
+}
+
+.menu-form input {
+    border-radius: 20px;
+    height: 50px;
+    padding-top: 10px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.menu-form input::placeholder {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.menu-form1 input {
+    margin-left: 20px;
+}
+
+
+
+.menu-form2 input {
+    margin-left: 20px;
+}
+
+.menu-form3 input {
+    margin-left: 55px;
+}
+
+.menu-form4 input {
+    margin-left: 20px;
+}
+
+.menu-form5 input {
+    margin-left: 20px;
+}
+
+.menu-form3,
+.menu-form4,
+.menu-form5 {
+    margin-left: 50px;
+}
+
+.menu-register-btn {
+    background-color: #EB601F;
+    color: white;
+    width: 8rem;
+    margin: 0 auto;
+    border-radius: 20rem;
+    height: 8vh;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 2rem;
+    border: none;
+    font-weight: bold;
+    margin-right: 120px;
+}
+
+input[type=file]::file-selector-button {
+    margin-left: 10px;
+    width: 110px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(77, 77, 77);
+        color: #fff;
+    }
+}

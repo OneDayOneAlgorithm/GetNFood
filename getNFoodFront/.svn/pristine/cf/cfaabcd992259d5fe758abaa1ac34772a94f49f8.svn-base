@@ -1,0 +1,116 @@
+.cart-title {
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #eee;
+    padding-bottom: 4vh;
+    padding-top: 4vh;
+}
+
+.cart-main {
+    width: 60vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: white;
+    overflow: scroll;
+}
+
+.cart-background {
+    background-color: #eee;
+    height: 135vh;
+}
+
+.store-name {
+    margin-left: 4vw;
+    padding-top: 10vh;
+    margin-bottom: 5vh;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.menu-box {
+    width: 52vw;
+    background-color: #eee;
+    height: 26vh;
+    margin-left: 4vw;
+    border-radius: 20px;
+    margin-bottom: 7vh;
+}
+
+.menu-footer {
+    display: flex;
+}
+
+/* 
+.counter-button {
+    width: 20px;
+    height: 30px;
+} */
+
+
+.cart-menu-name {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 2vh;
+    padding-left: 2vw;
+}
+
+.cart-add-menu {
+    text-align: center;
+}
+
+.cart-price {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    font-size: 1.3em
+}
+
+.payment-box {
+    background-color: white;
+    height: 20vh;
+    width: 52vw;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-price,
+.discount-price {
+    margin-left: 2vw;
+    padding-top: 2.5vh;
+    font-weight: bold;
+}
+
+.expected-price {
+    margin-left: 2vw;
+    font-weight: bold;
+    margin-top: -1.2vh
+}
+
+.cart-total-price {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 4vh;
+}
+
+.cart-order-btn {
+    width: 52vw;
+    background-color: #212529;
+    color: white;
+    width: 20rem;
+    margin: 0 auto;
+    border-radius: 20rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 2rem;
+    border: none;
+    font-weight: bold;
+}

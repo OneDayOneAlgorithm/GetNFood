@@ -1,0 +1,85 @@
+.mainlogo-register {
+  width: 10rem;
+}
+
+.register-container {
+  margin: auto;
+  margin-top: 0px;
+  text-align: center;
+  background-color: #dddddd;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  /* 가운데 정렬을 위해 너비를 100%로 설정합니다. */
+  max-width: 500px;
+  /* 필요에 따라 너비를 조절하세요. */
+}
+
+.register-container h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  max-width: 300px;
+}
+
+
+.button-rg {
+  cursor: pointer;
+  background-color: #5CB6BD;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+
+
+button:hover {
+  opacity: 0.5;
+}
+
+.button-rg:hover {
+  background-color: #e94f4f;
+}
+
+
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+p a {
+  color: #d95555;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}

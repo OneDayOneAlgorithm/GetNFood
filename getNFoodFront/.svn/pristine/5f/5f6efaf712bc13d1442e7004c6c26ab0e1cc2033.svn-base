@@ -1,0 +1,5 @@
+.addstore-main {
+    height: 500px;
+    width: 500px;
+    background: red;
+}

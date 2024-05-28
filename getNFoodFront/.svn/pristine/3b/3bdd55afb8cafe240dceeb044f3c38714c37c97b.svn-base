@@ -1,0 +1,7 @@
+.search-main {
+    margin: 0 auto;
+    width: 200px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center !important
+}
