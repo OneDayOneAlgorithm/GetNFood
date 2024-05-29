@@ -1,0 +1,226 @@
+.owner-toggleSwitch {
+    width: 120px;
+    height: 40px;
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 16px 3px rgba(0 0 0 / 15%);
+    cursor: pointer;
+    margin-top: 4rem;
+    margin-left: 80rem;
+}
+
+.owner-toggleSwitch .owner-toggleButton {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: black;
+}
+
+#toggle:checked~.owner-toggleSwitch {
+    background: #f03d3d;
+
+}
+
+#toggle:checked~.owner-toggleSwitch .owner-toggleButton {
+    left: calc(100% - 44px);
+    background: #fff;
+    content: attr(data-off)
+}
+
+.owner-toggleSwitch,
+.owner-toggleButton {
+    transition: all 0.2s ease-in;
+}
+
+.addstore-WJH {
+
+    background-color: none;
+    border: 3px solid #d6711870;
+    width: 50rem;
+    height: 15rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.addbtn-WJH {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15rem;
+    width: 8rem;
+    height: 8rem;
+    border: none;
+    background-color: white;
+}
+
+.addwirter-WJH {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.owner-mode {
+
+    font-size: 0.9rem;
+    padding-top: 10px;
+    font-weight: bold;
+    position: absolute;
+    left: -27px;
+}
+
+
+.owner-toggleButton {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0vw;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #EB601F;
+    margin-left: 86px;
+}
+
+.owner-icon-container {
+
+    display: flex;
+    gap: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+.owner-icon-container {
+
+    flex: 1;
+    height: 20vh;
+    text-align: center;
+}
+
+.all-menu {
+    margin-left: 7vw;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 7vh;
+    margin-bottom: 6vh;
+}
+
+
+.owner-menu-img {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+}
+
+.owner-menu-name {
+    text-align: center;
+    font-weight: bold;
+}
+
+.store-owner-img {
+    margin-left: 25%;
+}
+
+
+.owner-menu-img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.ownerManagement {
+    background-color: #EB601F;
+    color: white;
+    width: 13rem;
+    margin: 0 auto;
+    border-radius: 20rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 2rem;
+}
+
+
+.left-section-wjh {
+    float: left;
+    margin-right: 3rem;
+    /* background-color: wheat; */
+}
+
+.owner-mypage-container-wjh {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+
+    font-weight: 550;
+    font-size: 120%;
+}
+
+.owinputbutton-wjh {
+
+    display: inline-block;
+    padding: 10px 30px;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    /* 크기 조절 */
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    /* border: none; */
+    border-radius: 8px;
+    /* 더욱 둥근 모양 */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    /* 호버 효과를 위한 트랜지션 */
+}
+
+.owinputbutton-wjh:hover {
+    background-color: #d8d8d867;
+    /* 호버 시 배경색 변경 */
+}
+
+.owtextarea-wjh {
+    /* padding: 30px 60px 50px 100px; */
+    width: 50%;
+    height: 11rem;
+}
+
+.form-group-wjh {
+    margin-top: 10px;
+}
+
+.edit-button-container-wjh {
+    /* background-color: wheat; */
+    margin-top: 20%;
+    text-align: right;
+}
+
+
+.form-group-wjh input,
+.form-group-wjh select,
+.form-group-wjh textarea {
+    /* width: 70%; */
+    /* padding: 8px; */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.form-group-wjh input {
+    margin-right: 25px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+
+
+}

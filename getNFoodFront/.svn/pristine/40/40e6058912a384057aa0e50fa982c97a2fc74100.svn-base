@@ -1,0 +1,196 @@
+.html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-wrap {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #dbdbdb;
+    height: 25vh;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-logo-noToggle {
+    margin-top: 5vh;
+}
+
+.logo img {
+    width: 3.5vw;
+    margin-left: 3vw
+}
+
+.main-logo {
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Updated font family */
+    color: black;
+    /* Simplified color */
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.toggleSwitch {
+    width: 120px;
+    height: 40px;
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 16px 3px rgba(0 0 0 / 15%);
+    cursor: pointer;
+    margin-top: 17vh;
+    margin-left: 80rem;
+    z-index: 5;
+}
+
+.toggleSwitch .toggleButton {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #EB601F;
+    /* Simplified background */
+}
+
+#toggle:checked~.toggleSwitch {
+    background: black;
+    /* Updated to black */
+}
+
+#toggle:checked~.toggleSwitch .toggleButton {
+    left: calc(100% - 44px);
+    background: #fff;
+    /* Updated to white */
+}
+
+.toggleSwitch,
+.toggleButton {
+    transition: all 0.2s ease-in;
+}
+
+.customer-mode,
+.owner-mode {
+    color: black;
+    /* Simplified text color */
+    font-size: 0.9rem;
+    padding-top: 10px;
+    padding-left: 3vw;
+    font-weight: bold;
+}
+
+.owenr-toggleButton {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: black;
+    /* Updated to black */
+}
+
+.bg-body-tertiary {
+    background-color: #5CB6BD;
+    /* Updated background color */
+    /* other properties might be here */
+}
+
+.nav-bar-bg.bg-body-tertiary {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.nav-customer {
+    font-weight: bold;
+}
+
+.nav-owner {
+    font-weight: bold;
+}
+
+
+.main-logo-img {
+    width: 200px;
+    top: -20px;
+    z-index: 2;
+    position: relative;
+
+}
+
+.main-bg-img {
+    width: 1600px;
+    height: 270px;
+    margin-top: -350px;
+    z-index: 1;
+    position: relative;
+
+}
+
+
+
+.nav-cart {
+    color: black
+}
+
+.logout-nav:hover {
+    font-weight: bold;
+    color: black !important
+}
+
+.nav-cart:hover {
+    font-weight: bold;
+    color: black !important
+}
+
+.nav-customer {
+    font-weight: bold;
+
+}
+
+.nav-customer:hover {
+    font-weight: bold;
+    color: black !important
+}
+
+.nav-owner:hover {
+    font-weight: bold;
+    color: black !important
+}
+
+.main-logo-home {
+    margin-right: 28vw;
+    z-index: 9;
+}
+
+.nav-center-logo {
+    width: 30px;
+
+}
+
+.new-nav-bar {
+    display: flex;
+    gap: 20px;
+    margin-left: 1140px;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    position: absolute;
+    right: 490px;
+
+}
+
+.search-btn {
+    margin-right: 30px;
+    background-color: #5CB6BD;
+}

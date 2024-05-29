@@ -1,0 +1,137 @@
+@keyframes scrollRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% / 2));
+    }
+
+    /* 이미지 길이의 절반만큼만 이동 */
+}
+
+.sale-container {
+    overflow: hidden;
+    white-space: nowrap;
+    height: 428px;
+    width: 85%;
+}
+
+.sale-row {
+    display: flex;
+    animation: scrollRight 20s linear infinite;
+
+}
+
+.sale-card {
+    flex: 0 0 auto;
+}
+
+.today-sale {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    margin-top: 9vh;
+    padding-bottom: 6vh;
+    font-size: 1.7em;
+    text-align: center;
+    background-color: #EB601F;
+    color: white;
+    width: 200px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 20rem;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-bottom: 7vh;
+}
+
+.menu-discount {
+    color: red;
+    font-weight: bold;
+}
+
+.nav-bar-bg {
+    background-color: #5CB6BD;
+}
+
+.sale-container {
+
+    /* 수평 스크롤 가능하도록 설정 */
+    white-space: nowrap;
+    /* 요소들이 줄바꿈 되지 않도록 설정 */
+}
+
+.sale-card {
+    display: inline-block;
+    /* 카드를 인라인 블록으로 설정 */
+    width: 16rem;
+    /* 각 카드의 너비를 고정 */
+    margin-right: 110px;
+    /* 오른쪽 마진 추가 */
+}
+
+input::placeholder {
+    font-size: 13px;
+}
+
+.menu-management-wjh {
+
+    color: black;
+    width: 30%;
+    margin: 0 auto;
+
+    height: 50px;
+}
+
+.menu-boxdesign-wjh {}
+
+
+.menu-manage-kyh {
+    background-color: #EB601F;
+    color: white;
+    width: 10rem;
+    height: 6vh;
+    padding-top: 5px;
+    margin: 0 auto;
+    border-radius: 20rem;
+    margin-left: 450px;
+}
+
+.my-region-store {
+    margin-left: 1130px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    background-color: #EB601F;
+    color: white;
+    width: 16rem;
+    height: 40px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 16px;
+    border-radius: 20rem;
+}
+
+.my-region-store:hover {
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.right-arrow {
+    padding-bottom: 4px;
+}
+
+.map-main {
+    text-align: center;
+    background-color: #EB601F;
+    color: white;
+    font-weight: bold;
+    border-radius: 20rem;
+    width: 22rem;
+    height: 50px;
+    margin-left: auto;
+    padding-top: 6px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 30px;
+}

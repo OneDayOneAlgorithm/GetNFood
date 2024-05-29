@@ -1,0 +1,27 @@
+/* DeleteAccountComplete.css */
+
+.delete-account-container {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.delete-account-message {
+  font-size: 24px;
+  color: #4CAF50; /* Green color */
+}
+
+.delete-account-box {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 3rem;
+  border: 2px solid #4CAF50; /* Green border */
+  border-radius: 10px;
+  background-color: #f2f2f2; /* Light grey background */
+}
+
+.goodbye_logIMG
+{
+  width: 30rem;
+  display: block;
+  margin: auto;
+}

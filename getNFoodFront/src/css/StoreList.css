@@ -1,0 +1,37 @@
+.title {
+    color: black;
+    font-weight: bold;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    font-size: 1.5em;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.storeList-logo {
+    padding-top: 13vh;
+}
+
+.storeList-wrap {
+    height: 30vh;
+    margin-bottom: 5vh;
+}
+
+.storeList-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+
+}
+
+.category-main-name {
+    text-align: center;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 2em;
+    width: 130px;
+    background: #EB601F;
+
+    margin: 0 auto;
+    margin-bottom: -170px;
+}

@@ -1,0 +1,74 @@
+.ownerManagement {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 1vh;
+  font-weight: bold;
+}
+
+
+.left-section-wjh {
+  float: left;
+  margin-right: 5%;
+  margin-left: 10px;
+  /* background-color: wheat; */
+}
+
+.owner-mypage-container-wjh {
+  /* background-color: aqua; */
+  width: 60%;
+  height: 100%;
+  margin-left: 370px;
+
+  font-weight: 550;
+  font-size: 120%;
+}
+
+.owinputbutton-wjh {
+  display: inline-block;
+  padding: 10px 30px;
+  /* 크기 조절 */
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
+  /* border: none; */
+  border-radius: 8px;
+  /* 더욱 둥근 모양 */
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  /* 호버 효과를 위한 트랜지션 */
+}
+
+.owinputbutton-wjh:hover {
+  background-color: #d8d8d867;
+  /* 호버 시 배경색 변경 */
+}
+
+.owtextarea-wjh {
+  /* padding: 30px 60px 50px 100px; */
+  width: 50%;
+  height: 11rem;
+}
+
+.form-group-wjh {
+  margin-top: 10px;
+}
+
+.edit-button-container-wjh {
+  /* background-color: wheat; */
+  margin-top: 20%;
+  text-align: right;
+}
+
+.edit-button-wjh {
+  background-color: #EB601F;
+  color: white;
+  width: 6rem;
+  margin-left: 360px;
+  position: relative;
+  bottom: 55px;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20rem;
+}
